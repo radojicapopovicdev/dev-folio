@@ -5,6 +5,10 @@ All notable changes to the server part of this project will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.4] - 15-03-2024
+### Added
+- Header Section done, fully responsive
+
 ## [0.0.3] - 15-03-2024
 ### Added
 - Structure Setup, added responsive design to the sections
