@@ -5,14 +5,16 @@ export default {
     fontFamily: {
       sora: ["Sora", "sans-serif"],
       karla: ["Karla", "sans-serif"],
+      pathway: ['"Pathway Gothic One"', "sans-serif"],
     },
     screens: {
-      sm: "393px", // mobile
+      sm: "375px", // mobile
       md: "768px", // tablets
       lg: "1024px", // small laptops
       xl: "1280px", // laptops/desktops
       "2xl": "1920px", // large screens
-      "3xl": "2560px", // 2k screens
+      "3xl": "2400px", // 2k screens
+      mac : "3020px"
     },
   },
   plugins: [],
