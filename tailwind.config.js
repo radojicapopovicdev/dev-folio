@@ -14,8 +14,8 @@ export default {
       xl: "1280px", // laptops/desktops
       "2xl": "1920px", // large screens
       "3xl": "2400px", // 2k screens
-      mac : "3020px",
-      ultrawide: "3600px"
+      mac: "3020px",
+      ultrawide: "3600px",
     },
   },
   plugins: [],
