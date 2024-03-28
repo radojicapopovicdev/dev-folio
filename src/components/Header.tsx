@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div
       id="header-wrapper"
-      className="bg-[#141414] 3xl:h-[100px] 2xl:h-[100px] xl:h-[100px] lg:h-[100px] sm:h-[90px] flex"
+      className="bg-[#000000] 3xl:h-[100px] 2xl:h-[100px] xl:h-[100px] lg:h-[100px] sm:h-[90px] flex"
     >
       <div id="nav" className="flex w-full justify-between">
         <img
@@ -14,28 +14,28 @@ const Header = () => {
            cursor-pointer"
         />
         <a
-          className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[43px] px-[5px] text-[16px] font-karla mac:text-[24px]"
+          className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px] px-[5px] text-[16px] font-karla mac:text-[24px]"
           href=""
         >
-          Lorem
+          About Me
         </a>
         <a
-          className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[43px] px-[5px]text-[16px] font-karla mac:text-[24px]"
+          className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px px-[5px]text-[16px] font-karla mac:text-[24px]"
           href=""
         >
-          Lorem
+          Experience
         </a>
         <a
-          className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[43px] px-[5px] text-[16px] font-karla mac:text-[24px]"
+          className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px px-[5px] text-[16px] font-karla mac:text-[24px]"
           href=""
         >
-          Lorem
+          Projects
         </a>
         <a
-          className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[43px] px-[5px] text-[16px] font-karla mac:text-[24px]"
+          className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px px-[5px] text-[16px] font-karla mac:text-[24px]"
           href=""
         >
-          Lorem
+          Resume
         </a>
         <button
           className="hidden md:flex justify-center items-center 2xl:mr-[346px] w-[188px] h-[44px] p-[10px] gap-[10px] mt-[31px] 

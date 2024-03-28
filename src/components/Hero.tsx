@@ -1,59 +1,102 @@
-import { motion } from "framer-motion";
-
-const svgVariants = {
-  hidden: { scaleY: 0 },
-  visible: { scaleY: 1, transition: { duration: 0.8 } },
-};
-
 const Hero = () => {
   return (
     <div
       id="hero-wrapper"
-      className="3xl:h-[100vh] 2xl:h-[100vh] xl:h-[100vh] lg:h-[100vh] sm:h-[60vh] md:h-[80vh] bg-[#141414]"
+      className="3xl:h-[100vh] 2xl:h-[100vh] xl:h-[100vh] lg:h-[100vh] sm:h-[60vh] md:h-[80vh] bg-[#000000]"
     >
+      {/* ENGINEERING */}
       <p
-        className="text-white 2xl:text-[272px] font-pathway 2xl:ml-[450px] 3xl:ml-[860px] xl:text-[180px] 
-         xl:ml-[300px] sm:text-[80px] sm:ml-[55px] sm:pt-[100px] md:text-[100px] md:ml-[120px] lg:ml-[300px]
-         mac:text-[350px] mac:ml-[750px] ultrawide:ml-[1200px]"
+        className="text-white 2xl:text-[212px] font-bigs 2xl:ml-[450px] 3xl:ml-[650px] xl:text-[180px] 
+         xl:ml-[300px] xl:mt-[-80px] sm:text-[80px] sm:ml-[55px] sm:pt-[100px] md:text-[100px] md:ml-[70px] lg:ml-[200px]
+         mac:text-[350px] mac:ml-[650px] ultrawide:ml-[650px]"
       >
-        SOFTWARE
+        ENGINEERING
       </p>
-      <motion.img
-        src="https://svgshare.com/i/14PN.svg"
-        alt="line1"
-        className="absolute 2xl:h-[313px] 2xl:ml-[505px] 2xl:mt-[-75px] 3xl:ml-[905px] xl:h-[200px] xl:ml-[330px]
-        xl:mt-[-30px] sm:h-[157px] sm:ml-[71px] md:h-[197px] md:ml-[140px] lg:ml-[320px] mac:h-[440px] mac:ml-[830px]  
-        ultrawide:ml-[1280px] ultrawide:h-[640px] ultrawide:mt-[-100px]"
-        initial="hidden"
-        animate="visible"
-        variants={svgVariants}
-        style={{ originY: 0 }} // Animate scale from the top
+      {/* TEXT 1 */}
+      <p
+        className="text-white 2xl:text-[16px] font-karla 2xl:w-[220px] 2xl:ml-[1330px] 2xl:mt-[-150px] 3xl:ml-[1650px] xl:text-[12px]
+         xl:w-[300px] xl:ml-[750px] xl:mt-[220px] sm:text-[14px] sm:w-[206px] sm:ml-[162px] sm:mt-[-5px] md:ml-[495px] md:mt-[-30px] lg:ml-[650px] 
+         lg:mt-[-70px] mac:ml-[2290px] mac:text-[20px] mac:mt-[-220px] mac:w-[320px] ultrawide:ml-[3050px]  "
+      >
+        WEBSITES, APPLICATIONS AND SAAS DEVELOPMET
+      </p>
+      {/* YOUR VISION */}
+      <p
+        className="text-white 2xl:text-[212px] 2xl:mt-[20px] 2xl:ml-[850px] font-bigs 3xl:ml-[1375px] 3xl:mt-5 xl:text-[180px]
+         xl:ml-[500px] xl:mt-[-300px] sm:text-[80px] sm:ml-[130px] sm:mt-[-20px] md:text-[100px] md:ml-[350px] lg:ml-[520px]
+         lg:mt-[30px] mac:text-[350px] mac:ml-[1400px] mac:mt-[-20px] ultrawide:ml-[2150px]  "
+      >
+        YOUR VISION
+      </p>
+      {/* TEXT 2 */}
+      <p
+        className="text-[#DDDDDD] 2xl:text-[16px] font-karla 2xl:w-[297.59px] 2xl:ml-[570px] 2xl:mt-[-145px] 3xl:ml-[920px] xl:text-[12px]
+         xl:w-[300px] xl:ml-[750px] xl:mt-[-40px] sm:text-[14px] sm:w-[206px] sm:ml-[162px] sm:mt-[-5px] md:ml-[295px] lg:ml-[300px]  lg:mt-[-70px]
+         mac:ml-[1000px] mac:text-[20px] mac:mt-[-180px]  "
+      >
+        TAILORED SOFTWARE SOLUTIONS FOR DYNAMIC BUSINESSES
+      </p>
+      {/* VECTOR */}
+      <img
+        src="https://svgshare.com/i/14of.svg"
+        alt="svg"
+        className=" 2xl:ml-[485px] 2xl:mt-[-30px] 3xl:ml-[750px] mac:ml-[790px] lg:ml-[180px]  lg:mt-[-20px] md:ml-[120px] md:mt-[-30px] xl:ml-[400px] xl:mt-[-120px]  "
       />
-      <p
-        className="text-white 2xl:text-[272px] 2xl:mt-[-150px] 2xl:ml-[764px] font-pathway 3xl:ml-[1164px] xl:text-[180px]
-         xl:ml-[500px] xl:mt-[-300px] sm:text-[80px] sm:ml-[130px] sm:mt-[-20px] md:text-[100px] md:ml-[250px] lg:ml-[420px]
-         lg:mt-[-230px] mac:text-[350px] mac:ml-[1150px] mac:mt-[-200px] ultrawide:ml-[1700px]  "
+      {/* ICONS */}
+      <div
+        id="nav"
+        className=" absolute  2xl:w[24px] 2xl:h-[200px] 2xl:ml-[456px] 2xl:mt-[-370px] 3xl:ml-[650px] mac:ml-[650px] lg:ml-[180px] lg:mt-[-420px] md:ml-[70px] md:mt-[-420px] xl:ml-[300px] xl:mt-[-520px] "
       >
-        ENGINEER
-      </p>
-      <motion.img
-        src="https://svgshare.com/i/14PP.svg"
-        alt="line 2"
-        className="absolute 2xl:h-[63.5px] 2xl:ml-[816px] 2xl:mt-[-75px] 3xl:ml-[1316px] xl:h-[50px] xl:ml-[530px] xl:mt-[-40px]
-        sm:h-[65px] sm:ml-[144px] md:h-[85px] md:ml-[265px] lg:ml-[440px] mac:ml-[1210px] mac:h-[150px] ultrawide:ml-[1780px]"
-        initial="hidden"
-        animate="visible"
-        variants={svgVariants}
-        style={{ originY: 0 }} // Animate scale from the top
-      />
-      <p
-        className="text-white 2xl:text-[16px] font-karla 2xl:w-[396px] 2xl:ml-[1178px] 2xl:mt-[-50px] 3xl:ml-[1578px] xl:text-[12px]
-         xl:w-[300px] xl:ml-[750px] xl:mt-[-40px] sm:text-[14px] sm:w-[206px] sm:ml-[162px] sm:mt-[-5px] md:ml-[295px] lg:ml-[500px] 
-         mac:ml-[1800px] mac:text-[20px]  "
+        <a href="">
+          <img
+            src="https://svgshare.com/i/14qD.svg"
+            alt="logo-upwork"
+            className="pb-[20px] cursor-pointer "
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/radojica-popovic/">
+          <img
+            src="https://svgshare.com/i/14qi.svg"
+            alt="logo-linkedin "
+            className="pb-[20px] cursor-pointer"
+          />
+        </a>
+        <a href="">
+          <img
+            src="https://svgshare.com/i/14q4.svg"
+            alt="logo-instagram"
+            className="pb-[20px] cursor-pointer"
+          />
+        </a>
+        <a href="">
+          <img
+            src="https://svgshare.com/i/14pa.svg"
+            alt="logo-pinterest"
+            className="pb-[20px] cursor-pointer"
+          />
+        </a>
+        <a href="">
+          <img
+            src="https://svgshare.com/i/14o7.svg"
+            alt="logo-github"
+            className="pb-[20px] cursor-pointer"
+          />
+        </a>
+        {/* CODE 1 */}
+      </div>
+      <div
+        id="code1"
+        className="abpsolute 2xl:ml-[600px] 2xl:mt-[-280px] 3xl:ml-[850px] mac:ml-[920px] lg:ml-[280px]  lg:mt-[-420px] md:mt-[-420px] md:ml-[220px] "
       >
-        LOREM IPSUM DOLOR SIT AMET CONSECTETUR. EGET MATTIS ELEMENTUM ADIPISCING
-        TURPIS ALIQUET A IN.
-      </p>
+        <img src="https://svgshare.com/i/14og.svg" alt="code1" />
+      </div>
+      {/* CODE 2 */}
+      <div
+        id="code2"
+        className="abpsolute 2xl:ml-[1350px] 2xl:mt-[-150px] 3xl:ml-[1650px] mac:ml-[1850px] lg:ml-[600px]  lg:mt-[-150px]  md:mt-[-120px] md:ml-[450px]"
+      >
+        <img src="https://svgshare.com/i/14qu.svg" alt="code2" />
+      </div>
     </div>
   );
 };

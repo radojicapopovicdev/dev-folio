@@ -6,6 +6,7 @@ export default {
       sora: ["Sora", "sans-serif"],
       karla: ["Karla", "sans-serif"],
       pathway: ['"Pathway Gothic One"', "sans-serif"],
+      bigs: ["Big Shoulders Display", "sans-serif"]
     },
     screens: {
       sm: "375px", // mobile

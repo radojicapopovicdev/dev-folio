@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div
       id="about-wrapper"
-      className="bg-[#6B422A] 3xl:h-[50vh] 2xl:h-[50vh] xl:h-[50vh] lg:h-[50vh] md:h-[50vh] sm:h-[50vh] "
+      className="bg-[#000000] 3xl:h-[50vh] 2xl:h-[50vh] xl:h-[50vh] lg:h-[50vh] md:h-[50vh] sm:h-[50vh] "
     >
       <p className="text-white font-karla 2xl:text-[14px] 2xl:pt-[106px] 2xl:ml-[450px] ">
         A FEW WORDS ABOUT ME
@@ -21,3 +21,4 @@ const About = () => {
 };
 
 export default About;
+ 
