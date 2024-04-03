@@ -2,12 +2,12 @@ const Hero = () => {
   return (
     <div
       id="hero-wrapper"
-      className="3xl:h-[100vh] 2xl:h-[100vh] xl:h-[100vh] lg:h-[100vh] sm:h-[60vh] md:h-[80vh] bg-[#000000]"
+      className="3xl:h-[100vh] 2xl:h-[100vh] xl:h-[100vh] lg:h-[100vh] sm:h-[60vh] md:h-[80vh] bg-[#000000] pt-[150px]"
     >
       {/* ENGINEERING */}
       <p
         className="text-white 2xl:text-[212px] font-bigs 2xl:ml-[450px] 3xl:ml-[650px] xl:text-[180px] 
-         xl:ml-[300px] xl:mt-[-80px] sm:text-[80px] sm:ml-[55px] sm:pt-[100px] md:text-[100px] md:ml-[70px] lg:ml-[200px]
+         xl:ml-[300px] xl:mt-[-80px] md:text-[100px] md:ml-[70px] lg:ml-[200px]
          mac:text-[350px] mac:ml-[650px] ultrawide:ml-[650px]"
       >
         ENGINEERING
@@ -15,7 +15,7 @@ const Hero = () => {
       {/* TEXT 1 */}
       <p
         className="text-white 2xl:text-[16px] font-karla 2xl:w-[220px] 2xl:ml-[1330px] 2xl:mt-[-150px] 3xl:ml-[1650px] xl:text-[12px]
-         xl:w-[300px] xl:ml-[750px] xl:mt-[220px] sm:text-[14px] sm:w-[206px] sm:ml-[162px] sm:mt-[-5px] md:ml-[495px] md:mt-[-30px] lg:ml-[650px] 
+         xl:w-[300px] xl:ml-[750px] xl:mt-[220px] md:ml-[495px] md:mt-[-30px] lg:ml-[650px] 
          lg:mt-[-70px] mac:ml-[2290px] mac:text-[20px] mac:mt-[-220px] mac:w-[320px] ultrawide:ml-[3050px]  "
       >
         WEBSITES, APPLICATIONS AND SAAS DEVELOPMET
@@ -23,7 +23,7 @@ const Hero = () => {
       {/* YOUR VISION */}
       <p
         className="text-white 2xl:text-[212px] 2xl:mt-[20px] 2xl:ml-[850px] font-bigs 3xl:ml-[1375px] 3xl:mt-5 xl:text-[180px]
-         xl:ml-[500px] xl:mt-[-300px] sm:text-[80px] sm:ml-[130px] sm:mt-[-20px] md:text-[100px] md:ml-[350px] lg:ml-[520px]
+         xl:ml-[500px] xl:mt-[-300px] md:text-[100px] md:ml-[350px] lg:ml-[520px]
          lg:mt-[30px] mac:text-[350px] mac:ml-[1400px] mac:mt-[-20px] ultrawide:ml-[2150px]  "
       >
         YOUR VISION
@@ -31,7 +31,7 @@ const Hero = () => {
       {/* TEXT 2 */}
       <p
         className="text-[#DDDDDD] 2xl:text-[16px] font-karla 2xl:w-[297.59px] 2xl:ml-[570px] 2xl:mt-[-145px] 3xl:ml-[920px] xl:text-[12px]
-         xl:w-[300px] xl:ml-[750px] xl:mt-[-40px] sm:text-[14px] sm:w-[206px] sm:ml-[162px] sm:mt-[-5px] md:ml-[295px] lg:ml-[300px]  lg:mt-[-70px]
+         xl:w-[300px] xl:ml-[750px] xl:mt-[-40px] md:ml-[295px] lg:ml-[300px]  lg:mt-[-70px]
          mac:ml-[1000px] mac:text-[20px] mac:mt-[-180px]  "
       >
         TAILORED SOFTWARE SOLUTIONS FOR DYNAMIC BUSINESSES
@@ -39,7 +39,7 @@ const Hero = () => {
       {/* VECTOR */}
       <img
         src="https://svgshare.com/i/14of.svg"
-        alt="svg"
+        alt="vector"
         className=" 2xl:ml-[485px] 2xl:mt-[-30px] 3xl:ml-[750px] mac:ml-[790px] lg:ml-[180px]  lg:mt-[-20px] md:ml-[120px] md:mt-[-30px] xl:ml-[400px] xl:mt-[-120px]  "
       />
       {/* ICONS */}

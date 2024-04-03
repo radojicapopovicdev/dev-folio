@@ -1,4 +1,4 @@
-const Experience = () => {
+const Experiences = () => {
   return (
     <div
       id="experience-wrapper"
@@ -49,4 +49,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Experiences;
