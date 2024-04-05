@@ -39,12 +39,36 @@ const Experience = () => {
         EXPRESS, NODE, AND REACT), REFLECTING A VERSATILE AND EFFICIENT APPROACH
         TO WEB DEVELOPMENT.
       </p>
-      <img src="https://svgshare.com/i/151P.svg" alt="" className="absolute 2xl:ml-[601.93px] 2xl:mt-[-470px] " />
-      <img src="https://svgshare.com/i/151Q.svg" alt="" className="absolute 2xl:ml-[711.11px] 2xl:mt-[300px] " />
-      <img src="https://svgshare.com/i/151b.svg" alt="" className="absolute 2xl:ml-[964.06px] 2xl:mt-[130px] " />
-      <img src="https://svgshare.com/i/1509.svg" alt="" className="absolute 2xl:ml-[1064.93px] 2xl:mt-[400px]" />
-      <img src="https://svgshare.com/i/150h.svg" alt="" className="absolute 2xl:ml-[1191.78px] 2xl:mt-[500px]" />
-      <img src="https://svgshare.com/i/151S.svg" alt="" className="absolute 2xl:ml-[1046.38px] 2xl:mt-[750px]" />
+      <img
+        src="https://svgshare.com/i/151P.svg"
+        alt=""
+        className="absolute 2xl:ml-[601.93px] 2xl:mt-[-470px] "
+      />
+      <img
+        src="https://svgshare.com/i/151Q.svg"
+        alt=""
+        className="absolute 2xl:ml-[711.11px] 2xl:mt-[300px] "
+      />
+      <img
+        src="https://svgshare.com/i/151b.svg"
+        alt=""
+        className="absolute 2xl:ml-[964.06px] 2xl:mt-[130px] "
+      />
+      <img
+        src="https://svgshare.com/i/1509.svg"
+        alt=""
+        className="absolute 2xl:ml-[1064.93px] 2xl:mt-[400px]"
+      />
+      <img
+        src="https://svgshare.com/i/150h.svg"
+        alt=""
+        className="absolute 2xl:ml-[1191.78px] 2xl:mt-[500px]"
+      />
+      <img
+        src="https://svgshare.com/i/151S.svg"
+        alt=""
+        className="absolute 2xl:ml-[1046.38px] 2xl:mt-[750px]"
+      />
     </div>
   );
 };

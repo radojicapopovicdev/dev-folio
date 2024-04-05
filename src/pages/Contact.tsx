@@ -1,10 +1,10 @@
 const Contact = () => {
-    return (
-      <div
-        id="contact-wrapper"
-        className="3xl:h-[100vh] 2xl:h-[100vh] xl:h-[100vh] lg:h-[100vh] md:h-[100vh] sm:h-[100vh] bg-[#4E6E58]"
-      >
-        <p className="absolute font-bigs text-[100px] text-white 2xl:w-[812px] 2xl:mt-[52px] 2xl:ml-[554px]  ">
+  return (
+    <div
+      id="contact-wrapper"
+      className="3xl:h-[100vh] 2xl:h-[100vh] xl:h-[100vh] lg:h-[100vh] md:h-[100vh] sm:h-[100vh] bg-[#4E6E58]"
+    >
+      <p className="absolute font-bigs text-[100px] text-white 2xl:w-[812px] 2xl:mt-[52px] 2xl:ml-[554px]  ">
         GET IN TOUCH FOR A CODE-FUELED WORK DISCUSSION
       </p>
       <p className="absolute font-karla text-[16px] text-white 2xl:w-[604px] 2xl:mt-[350px] 2xl:ml-[600px]">
@@ -15,17 +15,20 @@ const Contact = () => {
       <input
         placeholder="EMAIL"
         type="text"
-        className=" 2xl:w-[604px] 2xl:h-[52px] 2xl:mt-[450px] 2xl:ml-[600px] border border-white border-opacity-40 bg-transparent font-karla text-[14px] pl-[18px] "
+        className=" 2xl:w-[604px] 2xl:h-[52px] 2xl:mt-[450px] 2xl:ml-[600px] border border-white border-opacity-40 bg-transparent 
+        font-karla text-[14px] pl-[18px] "
       />
       <input
         placeholder="SUBJECT"
         type="text"
-        className=" 2xl:w-[604px] 2xl:h-[52px] 2xl:mt-[12px] 2xl:ml-[600px] border border-white border-opacity-40 bg-transparent font-karla text-[14px] pl-[18px]  "
+        className=" 2xl:w-[604px] 2xl:h-[52px] 2xl:mt-[12px] 2xl:ml-[600px] border border-white border-opacity-40 bg-transparent 
+        font-karla text-[14px] pl-[18px]  "
       />
       <input
         placeholder="SHARE YOUR THOUGHTS OR IDEAS—I'M HERE TO LISTEN. YOUR MESSAGE IS IMPORTANT AND WILL BE HANDLED WITH CARE."
         type="text"
-        className=" 2xl:w-[604px] 2xl:h-[248px] 2xl:mt-[12px] 2xl:ml-[600px] border border-white border-opacity-40 bg-transparent font-karla text-[14px] pl-[18px]   "
+        className=" 2xl:w-[604px] 2xl:h-[248px] 2xl:mt-[12px] 2xl:ml-[600px] border border-white border-opacity-40 bg-transparent 
+        font-karla text-[14px] pl-[18px]   "
       />
       <button
         className="hidden md:flex justify-center items-center 2xl:mr-[346px] w-[604px] h-[52px] p-[10px] gap-[10px] mt-[31px] 2xl:ml-[600px]
@@ -37,9 +40,8 @@ const Contact = () => {
       >
         <span className="relative z-10">Hire Me</span>
       </button>
-      </div>
-    );
-  };
-  
-  export default Contact;
-  
+    </div>
+  );
+};
+
+export default Contact;

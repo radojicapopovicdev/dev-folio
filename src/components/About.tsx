@@ -16,7 +16,11 @@ const About = () => {
         PARTICULARLY WITH THE USE OF REACT IN CONJUNCTION WITH TYPESCRIPT.
       </p>
       {/* VECTOR */}
-      <img src="https://svgshare.com/i/150f.svg" alt="vector" className="absolute 2xl:ml-[1346px] 2xl:mt-[-20px] " />
+      <img
+        src="https://svgshare.com/i/150f.svg"
+        alt="vector"
+        className="absolute 2xl:ml-[1346px] 2xl:mt-[-20px] "
+      />
     </div>
   );
 };
