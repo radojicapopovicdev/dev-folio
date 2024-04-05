@@ -5,17 +5,17 @@ const Experience = () => {
       className="bg-[#FEFAE0] 3xl:h-[140vh] 2xl:h-[140vh] xl:h-[140vh] lg:h-[140vh] md:h-[110vh] sm:h-[110vh]"
     >
       {/* EXPERIENCE */}
-      <p className="text-[100px] text-[#000000] font-bigs 2xl:ml-[346px] 2xl:pt-[140px] ">
+      <p className="text-[100px] text-[#000000] font-bigs 2xl:ml-[400px] 2xl:pt-[140px] ">
         EXPERIENCE
       </p>
       {/* TEXT1 */}
-      <p className=" font-karla text-[16px] absolute w-[604px] 2xl:ml-[346px] sm:w-[200px] 2xl:w-[604px]">
+      <p className=" font-karla text-[16px] absolute w-[604px] 2xl:ml-[400px] sm:w-[200px] 2xl:w-[604px] smx:w-[200px]">
         AS A JAVASCRIPT SPECIALIST, I HAVE , PROFICIENCY IN HTML,, CSS, AND JS,
         WITH STRONG EXPERTISE IN REACT AND A SOLID UNDERSTANDING OF ANGULAR AND
         VUE.{" "}
       </p>
       {/* TEXT2 */}
-      <p className=" font-karla text-[16px] absolute w-[604px] 2xl:ml-[974px] sm:w-[200px] 2xl:w-[604px]">
+      <p className=" font-karla text-[16px] absolute w-[604px] 2xl:ml-[1050px] sm:w-[200px] 2xl:w-[604px] smx:w-[200px]">
         MY EXPERIENCE EXTENDS TO BUILDING SMALL AND MEDIUM WEB APPLICATIONS,
         INCLUDING CUSTOM FEATURES AND INTERACTIVE LAYOUTS.{" "}
       </p>
@@ -30,11 +30,11 @@ const Experience = () => {
         YAER OF EXPERIENCE
       </p>
       {/* ABILITIES */}
-      <p className="absolute 2xl:ml-[346px] font-bigs text-[100px] 2xl:mt-[850px]">
+      <p className="absolute 2xl:ml-[400px] font-bigs text-[100px] 2xl:mt-[850px]">
         ABILITIES
       </p>
       {/* TEXT3 */}
-      <p className="absolute 2xl:ml-[346px] font-karla 2xl:mt-[1000px] text-[16px] w-[604px] sm:w-[200px] 2xl:w-[604px]">
+      <p className="absolute 2xl:ml-[400px] font-karla 2xl:mt-[1000px] text-[16px] w-[604px] sm:w-[200px] 2xl:w-[604px] smx:w-[200px] ">
         MY FULL-STACK ABILITIES ARE CENTERED ON THE MERN STACK (MONGODB,
         EXPRESS, NODE, AND REACT), REFLECTING A VERSATILE AND EFFICIENT APPROACH
         TO WEB DEVELOPMENT.

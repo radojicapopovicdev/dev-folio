@@ -6,9 +6,9 @@ const Hero = () => {
     >
       {/* ENGINEERING */}
       <p
-        className="text-white 2xl:text-[212px] font-bigs 2xl:ml-[450px] 3xl:ml-[650px] xl:text-[180px] 
+        className="text-white 2xl:text-[212px] font-bigs 2xl:ml-[400px] 3xl:ml-[650px] xl:text-[180px] 
          xl:ml-[300px] xl:mt-[-80px] md:text-[100px] md:ml-[70px] lg:ml-[200px]
-         mac:text-[350px] mac:ml-[650px] ultrawide:ml-[650px]"
+         mac:text-[350px] mac:ml-[650px] ultrawide:ml-[850px] sm:text-[80px] sm:ml-[55px] sm:mt-[-80px] smx:text-[80px] smx:ml-[40px]"
       >
         ENGINEERING
       </p>
@@ -16,7 +16,7 @@ const Hero = () => {
       <p
         className="text-white 2xl:text-[16px] font-karla 2xl:w-[220px] 2xl:ml-[1330px] 2xl:mt-[-150px] 3xl:ml-[1650px] xl:text-[12px]
          xl:w-[300px] xl:ml-[750px] xl:mt-[220px] md:ml-[495px] md:mt-[-30px] lg:ml-[650px] 
-         lg:mt-[-70px] mac:ml-[2290px] mac:text-[20px] mac:mt-[-220px] mac:w-[320px] ultrawide:ml-[3050px]  "
+         lg:mt-[-70px] mac:ml-[2290px] mac:text-[20px] mac:mt-[-220px] mac:w-[320px] ultrawide:ml-[2850px] sm:mt-[100px] absolute sm:w-[284px] sm:ml-[55px] smx:ml-[40px] smx:mt-[100px] smx:w-[284px]  "
       >
         WEBSITES, APPLICATIONS AND SAAS DEVELOPMET
       </p>
@@ -24,7 +24,7 @@ const Hero = () => {
       <p
         className="text-white 2xl:text-[212px] 2xl:mt-[20px] 2xl:ml-[850px] font-bigs 3xl:ml-[1375px] 3xl:mt-5 xl:text-[180px]
          xl:ml-[500px] xl:mt-[-300px] md:text-[100px] md:ml-[350px] lg:ml-[520px]
-         lg:mt-[30px] mac:text-[350px] mac:ml-[1400px] mac:mt-[-20px] ultrawide:ml-[2150px]  "
+         lg:mt-[30px] mac:text-[350px] mac:ml-[1400px] mac:mt-[-20px] ultrawide:ml-[1950px] sm:text-[80px] sm:ml-[55px] sm:mt-[-20px] smx:text-[80px] smx:ml-[40px] smx:mt-[-20px] "
       >
         YOUR VISION
       </p>
@@ -32,7 +32,7 @@ const Hero = () => {
       <p
         className="text-[#DDDDDD] 2xl:text-[16px] font-karla 2xl:w-[297.59px] 2xl:ml-[570px] 2xl:mt-[-145px] 3xl:ml-[920px] xl:text-[12px]
          xl:w-[300px] xl:ml-[750px] xl:mt-[-40px] md:ml-[295px] lg:ml-[300px]  lg:mt-[-70px]
-         mac:ml-[1000px] mac:text-[20px] mac:mt-[-180px]  "
+         mac:ml-[1000px] mac:text-[20px] mac:mt-[-180px] sm:mt-[55px] absolute sm:w-[284px] sm:ml-[55px] smx:ml-[40px] smx:mt-[55px] smx:w-[284px]  "
       >
         TAILORED SOFTWARE SOLUTIONS FOR DYNAMIC BUSINESSES
       </p>
@@ -45,9 +45,9 @@ const Hero = () => {
       {/* ICONS */}
       <div
         id="nav"
-        className=" absolute  2xl:w[24px] 2xl:h-[200px] 2xl:ml-[456px] 2xl:mt-[-370px] 3xl:ml-[650px] mac:ml-[650px] lg:ml-[180px] lg:mt-[-420px] md:ml-[70px] md:mt-[-420px] xl:ml-[300px] xl:mt-[-520px] "
+        className=" absolute  2xl:w[24px] 2xl:h-[200px] 2xl:ml-[426px] 2xl:mt-[-370px] 3xl:ml-[650px] mac:ml-[650px] lg:ml-[180px] lg:mt-[-420px] md:ml-[70px] md:mt-[-420px] xl:ml-[300px] xl:mt-[-520px] "
       >
-        <a href="">
+        <a href="https://www.upwork.com/freelancers/~0185c1e5717ee4a769">
           <img
             src="https://svgshare.com/i/14qD.svg"
             alt="logo-upwork"
@@ -61,21 +61,21 @@ const Hero = () => {
             className="pb-[20px] cursor-pointer"
           />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/rpopoviic/">
           <img
             src="https://svgshare.com/i/14q4.svg"
             alt="logo-instagram"
             className="pb-[20px] cursor-pointer"
           />
         </a>
-        <a href="">
+        <a href="https://www.pinterest.com/rpopovicdev/">
           <img
             src="https://svgshare.com/i/14pa.svg"
             alt="logo-pinterest"
             className="pb-[20px] cursor-pointer"
           />
         </a>
-        <a href="">
+        <a href="https://github.com/radojicapopovicdev">
           <img
             src="https://svgshare.com/i/14o7.svg"
             alt="logo-github"

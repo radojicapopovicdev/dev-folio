@@ -18,7 +18,7 @@ const Header = () => {
         
         <Link to={"/about"}>
           <a
-            className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px] px-[5px] text-[16px] font-karla mac:text-[24px]"
+            className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px] mac:w-[120px] ultrawide:w-[120px] px-[5px] text-[16px] font-karla mac:text-[24px]"
             href=""
           >
             About Me
