@@ -2,7 +2,7 @@ const ContactForm = () => {
   return (
     <div
       id="contact-wrapper"
-      className="3xl:h-[100vh] 2xl:h-[100vh] xl:h-[100vh] lg:h-[100vh] md:h-[100vh] sm:h-[100vh] bg-[#4E6E58]"
+      className="3xl:h-[100vh] 2xl:h-[100vh] xl:h-[100vh] lg:h-[100vh] md:h-[100vh] sm:h-[100vh] smx:h-[100vh] bg-[#4E6E58]"
     >
       <p className="absolute font-bigs text-[100px] text-white 2xl:w-[812px] 2xl:mt-[152px] 2xl:ml-[554px]  ">
         GET IN TOUCH FOR A CODE-FUELED WORK DISCUSSION

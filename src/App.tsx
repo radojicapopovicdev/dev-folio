@@ -19,7 +19,7 @@ import HProjects from "./pages/HProjects";
 function App() {
   return (
     <Router>
-      <div className="2xl:ml-[-40px] 3xl:ml-[-100px] xl:ml-[-50px] mac:ml-[-100px] ultrawide:ml-[-100px] md:ml-[-50px] lg:ml-[-50px] sm:ml-[-20px]">
+      <div className="2xl:ml-[-40px] 3xl:ml-[-100px] xl:ml-[-50px] mac:ml-[-100px] ultrawide:ml-[-100px] md:ml-[-50px] lg:ml-[-50px] sm:ml-[-20px] smx:ml-[-20px] sm:mr-[-15px]">
         <Header />
       </div>
       <Routes>
@@ -27,7 +27,7 @@ function App() {
           path="/"
           element={
             <>
-              <div >
+              <div className=" sm:mr-[-15px] ">
                 <Hero />
                 <About />
                 <Skills />

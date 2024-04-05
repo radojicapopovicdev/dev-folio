@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.12] - 05-04-2024
 ### Added
 - Prettier Changes
+- Responsive design mostly done for Mobile phones and for Full HD
 
 ## [0.0.11] - 05-04-2024
 ### Added

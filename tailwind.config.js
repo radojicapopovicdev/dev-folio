@@ -9,8 +9,8 @@ export default {
       bigs: ["Big Shoulders Display", "sans-serif"]
     },
     screens: {
-      smx: "345px", //smol mobile
       sm: "375px", // mobile
+      smx: "345px", //smol mobile
       md: "768px", // tablets
       lg: "1024px", // small laptops
       xl: "1280px", // laptops/desktops
