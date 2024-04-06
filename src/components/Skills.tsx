@@ -2,7 +2,7 @@ const Skills = () => {
   return (
     <div
       id="skills-wrapper"
-      className=" bg-[#000000] 3xl:h-[80vh] 2xl:h-[80vh] xl:h-[80vh] lg:h-[80vh] md:h-[130vh] sm:h-[130vh] smx:h-[130vh] 2xl:mt-[-100px]   "
+      className=" bg-[#000000] 3xl:h-[80vh] 2xl:h-[80vh] xl:h-[80vh] lg:h-[80vh] md:h-[130vh] sm:h-[150vh] smx:h-[150vh] 2xl:mt-[-100px]   "
     >
       {/* LABEL */}
       <p

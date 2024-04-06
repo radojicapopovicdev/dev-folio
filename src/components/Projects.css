@@ -1,0 +1,99 @@
+.project-item {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .project-item:hover {
+    color: #FBFBFB;
+  }
+  
+  .project-item:hover .preview-window {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .preview-window {
+    position: absolute;
+    width: 749.72px;
+    height: 550px;
+    right: -820px;
+    top: -150px;
+    background-size: cover;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Adjustments for different screen sizes */
+  @media (max-width: 3600px) { /* ultrawide */
+    .preview-window {
+      width: 700px;
+      right: -750px;
+    }
+  }
+  
+  @media (max-width: 3020px) { /* mac */
+    .preview-window {
+      width: 650px;
+      right: -700px;
+    }
+  }
+  
+  @media (max-width: 2400px) { /* 3xl */
+    .preview-window {
+      width: 600px;
+      right: -650px;
+    }
+  }
+  
+  @media (max-width: 1920px) { /* 2xl */
+    .preview-window {
+      width: 650px;
+      right: -820px;
+    }
+  }
+  
+  @media (max-width: 1280px) { /* xl */
+    .preview-window {
+      width: 400px;
+      right: -450px;
+      top: -100px;
+    }
+  }
+  
+  @media (max-width: 1024px) { /* lg */
+    .preview-window {
+      width: 350px;
+      right: -400px;
+      top: -90px;
+    }
+  }
+  
+  @media (max-width: 768px) { /* md */
+    .preview-window {
+      width: 300px;
+      right: -350px;
+      top: -80px;
+    }
+  }
+  
+  @media (max-width: 375px) { /* sm */
+    .preview-window {
+      width: 250px; /* Adjust size as needed */
+      /* right: 50%; Centers the preview window */
+      top: 120px; /* Adjust so it appears below the project name */
+      transform: translateX(50%); /* Adjusts the positioning to center below the text */
+      height: auto; /* Optional: Adjust height as needed */
+    }
+  }
+  
+  @media (max-width: 320px) { /* smx */
+    .preview-window {
+      width: 200px; /* Adjust size as needed */
+      /* right: 50%; Centers the preview window */
+      top: 120px; /* Adjust so it appears below the project name */
+      transform: translateX(50%); /* Adjusts the positioning to center below the text */
+      height: auto; /* Optional: Adjust height as needed */
+    }
+  }
+  

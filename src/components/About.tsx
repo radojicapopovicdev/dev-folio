@@ -14,7 +14,7 @@ const About = () => {
       </p>
       {/* TEXT */}
       <p
-        className="absolute text-white font-karla text-[16px] 2xl:ml-[609px] 2xl:mt-[319px] 2xl:w-[668px] 
+        className="absolute text-white font-karla text-[16px] 2xl:text-center 2xl:ml-[609px] 2xl:mt-[319px] 2xl:w-[668px] 
       sm:mt-[470px] sm:w-[284px] sm:ml-[45px] smx:mt-[370px] smx:w-[284px] smx:ml-[45px] text-left "
       >
         I AM RADOJICA POPOVIC, A SEASONED SOFTWARE ENGINEER. WHILE I AM ADEPT AT

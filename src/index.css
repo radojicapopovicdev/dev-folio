@@ -5,3 +5,7 @@
 body {
     background-color: black;
 }
+
+.radial-gradient-custom {
+    background: radial-gradient(56.31% 35.93% at 50% 50%, #4E6E58 0%, #000000 98.72%);
+  }

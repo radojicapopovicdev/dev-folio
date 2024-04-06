@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div
       id="header-wrapper"
-      className="bg-[#000000] 3xl:h-[100px] 2xl:h-[100px] xl:h-[100px] lg:h-[100px] sm:h-[90px] flex"
+      className="bg-[#000000] 3xl:h-[100px] 2xl:h-[100px] xl:h-[100px] lg:h-[100px] sm:h-[90px] "
     >
       <div id="nav" className="flex w-full justify-between">
         <Link to={"/"}>
@@ -29,7 +29,7 @@ const Header = () => {
         </Link>
         <Link to={"/experiences"}>
           <a
-            className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px px-[5px]text-[16px] font-karla mac:text-[24px]"
+            className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px] px-[5px]text-[16px] font-karla mac:text-[24px]"
             href=""
           >
             Experience
@@ -38,7 +38,7 @@ const Header = () => {
 
         <Link to={"/projects"}>
           <a
-            className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px px-[5px] text-[16px] font-karla mac:text-[24px]"
+            className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px] px-[5px] text-[16px] font-karla mac:text-[24px]"
             href=""
           >
             Projects
@@ -47,7 +47,7 @@ const Header = () => {
 
         <Link to={"/resume"}>
           <a
-            className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px px-[5px] text-[16px] font-karla mac:text-[24px]"
+            className="hidden md:inline-block text-white mt-[46px] h-[19px] w-[79px] px-[5px] text-[16px] font-karla mac:text-[24px]"
             href=""
           >
             Resume

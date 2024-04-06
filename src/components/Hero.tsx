@@ -14,7 +14,7 @@ const Hero = () => {
       </p>
       {/* TEXT 1 */}
       <p
-        className="text-white 2xl:text-[16px] font-karla 2xl:w-[220px] 2xl:ml-[1330px] 2xl:mt-[-150px] 3xl:ml-[1650px] xl:text-[12px]
+        className="text-white/70 2xl:text-[16px] font-karla 2xl:w-[220px] 2xl:ml-[1330px] 2xl:mt-[-150px] 3xl:ml-[1650px] xl:text-[12px]
          xl:w-[300px] xl:ml-[750px] xl:mt-[220px] md:ml-[495px] md:mt-[-30px] lg:ml-[650px] 
          lg:mt-[-70px] mac:ml-[2290px] mac:text-[20px] mac:mt-[-220px] mac:w-[320px] ultrawide:ml-[2850px] sm:mt-[100px] absolute sm:w-[284px] 
          sm:ml-[55px] smx:ml-[40px] smx:mt-[100px] smx:w-[284px]  "
@@ -32,7 +32,7 @@ const Hero = () => {
       </p>
       {/* TEXT 2 */}
       <p
-        className="text-[#DDDDDD] 2xl:text-[16px] font-karla 2xl:w-[297.59px] 2xl:ml-[570px] 2xl:mt-[-145px] 3xl:ml-[920px] xl:text-[12px]
+        className="text-white/70 2xl:text-[16px] font-karla 2xl:w-[297.59px] 2xl:ml-[570px] 2xl:mt-[-145px] 3xl:ml-[920px] xl:text-[12px]
          xl:w-[300px] xl:ml-[750px] xl:mt-[-40px] md:ml-[295px] lg:ml-[300px]  lg:mt-[-70px]
          mac:ml-[1000px] mac:text-[20px] mac:mt-[-180px] sm:mt-[55px] absolute sm:w-[284px] sm:ml-[55px] smx:ml-[40px] smx:mt-[55px] smx:w-[284px]  "
       >
