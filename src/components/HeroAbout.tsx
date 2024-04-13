@@ -13,7 +13,7 @@ const HeroAbout = () => {
    xl:ml-[300px] xl:mt-[-80px] md:text-[100px] md:ml-[70px] lg:ml-[200px]
    mac:text-[350px] mac:ml-[650px] ultrawide:ml-[850px] sm:text-[80px] sm:ml-[55px] sm:mt-[-80px] smx:mt-[-80px] smx:text-[80px] smx:ml-[40px]"
       >
-       I'M
+        I'M
       </p>
       <p
         className="absolute text-white 2xl:text-[212px] font-bigs 2xl:ml-[1023px] 3xl:ml-[650px] xl:text-[180px] 
@@ -28,10 +28,19 @@ const HeroAbout = () => {
          lg:mt-[-70px] mac:ml-[2290px] mac:text-[20px] mac:mt-[-220px] mac:w-[320px] ultrawide:ml-[2850px] sm:mt-[100px] absolute sm:w-[284px] 
          sm:ml-[55px] smx:ml-[40px] smx:mt-[100px] smx:w-[284px]  "
       >
-        A SEASONED SOFTWARE ENGINEER BRINGING OVER 4 YEARS OF RICH EXPERIENCE TO THE TABLE. 
+        A SEASONED SOFTWARE ENGINEER BRINGING OVER 4 YEARS OF RICH EXPERIENCE TO
+        THE TABLE.
       </p>
-      <img src="https://i.imgur.com/jAmtGoE.jpg" alt="" className="absolute 2xl:w-[292px] 2xl:h-[292px] 2xl:ml-[708px] 2xl:mt-[-130px] "/>
-      <img src="https://svgshare.com/i/155t.svg" alt="" className="absolute 2xl:ml-[960.1px] 2xl:mt-[240px] " />
+      <img
+        src="https://i.imgur.com/jAmtGoE.jpg"
+        alt=""
+        className="absolute 2xl:w-[292px] 2xl:h-[292px] 2xl:ml-[708px] 2xl:mt-[-130px] "
+      />
+      <img
+        src="https://svgshare.com/i/155t.svg"
+        alt=""
+        className="absolute 2xl:ml-[960.1px] 2xl:mt-[240px] "
+      />
     </div>
   );
 };

@@ -12,13 +12,13 @@ export default {
     screens: {
       sm: "375px", // mobile
       smx: "320px", //smol mobile
-      md: "768px", // tablets
-      lg: "1024px", // small laptops
-      xl: "1280px", // laptops/desktops
-      "2xl": "1920px", // large screens
-      "3xl": "2400px", // 2k screens
-      mac: "3020px",
-      ultrawide: "3600px",
+      md: "668px", // tablets
+      lg: "9024px", // small laptops
+      xl: "1180px", // laptops/desktops
+      "2xl": "1820px", // large screens
+      "3xl": "2300px", // 2k screens
+      mac: "2920px",
+      ultrawide: "35ß00px",
     },
     extend: {
       backgroundImage: {

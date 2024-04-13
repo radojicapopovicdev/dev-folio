@@ -29,76 +29,107 @@ const Projects = () => {
       >
         BRAINWAVE
       </p>
-      <img src="https://i.imgur.com/gUgTJZT.png" alt="Project 1" className="absolute sm:ml-[45px] smx:ml-[45px] sm:mt-[350px] smx:mt-[350px]
-        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block" />
+      <img
+        src="https://i.imgur.com/gUgTJZT.png"
+        alt="Project 1"
+        className="absolute sm:ml-[45px] smx:ml-[45px] sm:mt-[350px] smx:mt-[350px]
+        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block"
+      />
       <p
         className="absolute 3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block
        text-[#FBFBFB] sm:text-[48px] smx:text-[48px] sm:ml-[110px] smx:ml-[110px] sm:mt-[550px] smx:mt-[550px] font-pathway "
       >
         BIZWISE
       </p>
-      <img src="https://i.imgur.com/gUgTJZT.png" alt="Project 2" className="absolute sm:ml-[110px] smx:ml-[110px] sm:mt-[700px] smx:mt-[700px]
-        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block" />
+      <img
+        src="https://i.imgur.com/gUgTJZT.png"
+        alt="Project 2"
+        className="absolute sm:ml-[110px] smx:ml-[110px] sm:mt-[700px] smx:mt-[700px]
+        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block"
+      />
       <p
         className="absolute 3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block
        text-[#FBFBFB] sm:text-[48px] smx:text-[48px] sm:ml-[45px] smx:ml-[45px] sm:mt-[850px] smx:mt-[850px] font-pathway "
       >
         Project Gamma
       </p>
-      <img src="https://i.imgur.com/gUgTJZT.png" alt="Project 3" className="absolute sm:ml-[45px] smx:ml-[45px] sm:mt-[1000px] smx:mt-[1000px]
-        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block" />
+      <img
+        src="https://i.imgur.com/gUgTJZT.png"
+        alt="Project 3"
+        className="absolute sm:ml-[45px] smx:ml-[45px] sm:mt-[1000px] smx:mt-[1000px]
+        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block"
+      />
       <p
         className="absolute 3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block
        text-[#FBFBFB] sm:text-[48px] smx:text-[48px] sm:ml-[110px] smx:ml-[110px] sm:mt-[1150px] smx:mt-[1150px] font-pathway "
       >
         Project Delta
       </p>
-      <img src="https://i.imgur.com/gUgTJZT.png" alt="Project 4" className="absolute sm:ml-[110px] smx:ml-[110px] sm:mt-[1300px] smx:mt-[1300px]
-        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block" />
+      <img
+        src="https://i.imgur.com/gUgTJZT.png"
+        alt="Project 4"
+        className="absolute sm:ml-[110px] smx:ml-[110px] sm:mt-[1300px] smx:mt-[1300px]
+        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block"
+      />
       <p
         className="absolute 3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block
        text-[#FBFBFB] sm:text-[48px] smx:text-[48px] sm:ml-[45px] smx:ml-[45px] sm:mt-[1450px] smx:mt-[1450px] font-pathway "
       >
         Project Epsilon
       </p>
-      <img src="https://i.imgur.com/gUgTJZT.png" alt="Project 5" className="absolute sm:ml-[45px] smx:ml-[45px] sm:mt-[1600px] smx:mt-[1600px]
-        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block" />
+      <img
+        src="https://i.imgur.com/gUgTJZT.png"
+        alt="Project 5"
+        className="absolute sm:ml-[45px] smx:ml-[45px] sm:mt-[1600px] smx:mt-[1600px]
+        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block"
+      />
       <p
         className="absolute 3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block
        text-[#FBFBFB] sm:text-[48px] smx:text-[48px] sm:ml-[110px] smx:ml-[110px] sm:mt-[1750px] smx:mt-[1750px] font-pathway "
       >
         Project Zeta
       </p>
-      <img src="https://i.imgur.com/gUgTJZT.png" alt="Project 6" className="absolute sm:ml-[110px] smx:ml-[110px] sm:mt-[1900px] smx:mt-[1900px]
-        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block" />
+      <img
+        src="https://i.imgur.com/gUgTJZT.png"
+        alt="Project 6"
+        className="absolute sm:ml-[110px] smx:ml-[110px] sm:mt-[1900px] smx:mt-[1900px]
+        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block"
+      />
       <p
         className="absolute 3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block
        text-[#FBFBFB] sm:text-[48px] smx:text-[48px] sm:ml-[45px] smx:ml-[45px] sm:mt-[2050px] smx:mt-[2050px] font-pathway "
       >
         Project Eta
       </p>
-      <img src="https://i.imgur.com/gUgTJZT.png" alt="Project 7" className="absolute sm:ml-[45px] smx:ml-[45px] sm:mt-[2200px] smx:mt-[2200px]
-        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block" />
+      <img
+        src="https://i.imgur.com/gUgTJZT.png"
+        alt="Project 7"
+        className="absolute sm:ml-[45px] smx:ml-[45px] sm:mt-[2200px] smx:mt-[2200px]
+        3xl:hidden 2xl:hidden xl:hidden ultrawide:hidden mac:hidden lg:hidden md:hidden sm:block smx:block"
+      />
 
       {/* DESKTOP */}
-      <p className="absolute 2xl:ml-[400px] font-bigs 2xl:text-[100px] text-white 2xl:mt-[141px] sm:text-[64px] sm:ml-[45px] sm:mt-[80px] ">
+      <p
+        className="absolute 2xl:ml-[400px] font-bigs 2xl:text-[100px] text-white 2xl:mt-[141px] sm:text-[64px] sm:ml-[45px] sm:mt-[80px]
+       smx:text-[64px] smx:ml-[45px] smx:mt-[80px] 3xl:ml-[600px] "
+      >
         PROJECTS
       </p>
       <img
         src="https://svgshare.com/i/151D.svg"
         alt=""
-        className="absolute 2xl:ml-[438.87px] 2xl:mt-[-100px] sm:hidden  smx:hidden 2xl:block"
+        className="absolute 2xl:ml-[438.87px] 2xl:mt-[-100px] sm:hidden  smx:hidden 3xl:block 2xl:block xl:block  ultrawide:block mac:block lg:block md:block"
       />
       <img
         src="https://svgshare.com/i/156U.svg"
         alt=""
-        className="absolute 2xl:ml-[700px] 2xl:mt-[220px] sm:hidden  smx:hidden 2xl:block"
+        className="absolute 2xl:ml-[700px] 2xl:mt-[220px] sm:hidden  smx:hidden 3xl:block 2xl:block xl:block  ultrawide:block mac:block lg:block md:block 3xl:ml-[900px]"
       />
       {projects.map((project, i) => (
         <p
           key={i}
           className="project-item absolute text-[#FBFBFB]/10 text-[62px] sm:text-[48px] smx:text-[48px] font-bigs 2xl:ml-[870px]
-           sm:hidden smx:hidden 3xl:block 2xl:block xl:block ultrawide:block mac:block lg:block md:block "
+           sm:hidden smx:hidden 3xl:block 2xl:block xl:block ultrawide:block mac:block lg:block md:block 3xl:ml-[1100px] "
           style={{ marginTop: `${180 + i * 100}px` }}
         >
           {project.name}

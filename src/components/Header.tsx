@@ -63,10 +63,11 @@ const Header = () => {
            before:transition-all before:duration-500 hover:text-white hover:shadow-[#648e71] hover:before:left-0 hover:before:w-full
             mac:h-[64px] mac:w-[288px] mac:text-[24px] "
           >
-            <span className="relative z-10">Hire Me</span>
+            <span className="relative z-10 font-karla ">HIRE ME</span>
           </button>
         </Link>
       </div>
+      <div id="mobile-nav"></div>
     </div>
   );
 };

@@ -4,7 +4,7 @@ const Contact = () => {
       id="contact-wrapper"
       className="3xl:h-[100vh] 2xl:h-[100vh] xl:h-[100vh] lg:h-[100vh] md:h-[100vh] sm:h-[120vh] smx:h-[120vh] bg-[#4E6E58]"
     >
-       <p
+      <p
         className="absolute font-bigs 2xl:text-[100px] text-white 2xl:w-[812px] 2xl:mt-[152px] 2xl:ml-[554px] sm:text-[48px]
         smx:text-[48px] sm:w-[314px] smx:w-[314px] sm:ml-[45px] sm:mt-[76px] smx:ml-[45px] smx:mt-[76px] "
       >
@@ -45,7 +45,7 @@ const Contact = () => {
              hover:before:left-0 hover:before:w-full mac:h-[64px] mac:w-[288px] mac:text-[24px] text-black shadow-2xl 
              sm:ml-[45px] sm:w-[303px] sm:block "
       >
-        <span className="relative z-10">Send Me an Email</span>
+        <span className="relative z-10 font-karla">SEND ME AN EMAIL</span>
       </button>
     </div>
   );

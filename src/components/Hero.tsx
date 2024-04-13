@@ -42,8 +42,9 @@ const Hero = () => {
       <img
         src="https://svgshare.com/i/14of.svg"
         alt="vector"
-        className=" 2xl:ml-[485px] 2xl:mt-[-30px] 3xl:ml-[750px] mac:ml-[790px] lg:ml-[180px]  lg:mt-[-20px] md:ml-[120px] md:mt-[-30px] 
-        xl:ml-[400px] xl:mt-[-120px] sm:hidden smx:hidden "
+        className=" 2xl:ml-[485px] 2xl:mt-[-130px] 3xl:ml-[750px] mac:ml-[790px] lg:ml-[180px]  lg:mt-[-20px] md:ml-[120px] md:mt-[-30px] 
+        xl:ml-[400px] xl:mt-[-120px] sm:hidden smx:hidden 3xl:block 2xl:block xl:block  ultrawide:block mac:block lg:block md:block 
+        3xl:mt-[-120px] "
       />
       <img
         src="https://svgshare.com/i/155h.svg"
@@ -58,8 +59,9 @@ const Hero = () => {
       {/* ICONS */}
       <div
         id="nav"
-        className=" absolute  2xl:w[24px] 2xl:h-[200px] 2xl:ml-[426px] 2xl:mt-[-370px] 3xl:ml-[650px] mac:ml-[650px] lg:ml-[180px] 
-        lg:mt-[-420px] md:ml-[70px] md:mt-[-420px] xl:ml-[300px] xl:mt-[-520px] sm:hidden smx:hidden"
+        className=" absolute  2xl:w[24px] 2xl:h-[200px] 2xl:ml-[426px] 2xl:mt-[-380px] 3xl:ml-[650px] mac:ml-[650px] lg:ml-[180px] 
+        lg:mt-[-420px] md:ml-[70px] md:mt-[-420px] xl:ml-[300px] xl:mt-[-520px] sm:hidden smx:hidden 3xl:block 2xl:block xl:block 
+        ultrawide:block mac:block lg:block md:block 3xl:mt-[-360px] "
       >
         <a href="https://www.upwork.com/freelancers/~0185c1e5717ee4a769">
           <img
@@ -100,15 +102,16 @@ const Hero = () => {
       </div>
       <div
         id="code1"
-        className="abpsolute 2xl:ml-[400px] 2xl:mt-[-80px] 3xl:ml-[850px] mac:ml-[920px] lg:ml-[280px]  
-        lg:mt-[-420px] md:mt-[-420px] md:ml-[220px] sm:mt-[150px] sm:pl-[70px] smx:mt-[140px] smx:pl-[80px]  "
+        className="abpsolute 2xl:ml-[500px] 2xl:mt-[-280px] 3xl:ml-[850px] mac:ml-[920px] lg:ml-[280px]  
+        lg:mt-[-420px] md:mt-[-420px] md:ml-[220px] sm:mt-[150px] sm:pl-[70px] smx:mt-[140px] smx:pl-[80px] 
+        3xl:mt-[-280px] "
       >
         <img src="https://svgshare.com/i/14og.svg" alt="code1" />
       </div>
       {/* CODE 2 */}
       <div
         id="code2"
-        className="abpsolute 2xl:ml-[1150px] 2xl:mt-[-150px] 3xl:ml-[1650px] mac:ml-[1850px] lg:ml-[600px] 
+        className="abpsolute 2xl:ml-[1150px] 2xl:mt-[-50px] 3xl:ml-[1650px] mac:ml-[1850px] lg:ml-[600px] 
          lg:mt-[-150px] md:mt-[-120px] md:ml-[450px] sm:mt-[-20px] sm:pl-[70px] smx:mt-[-70px] smx:pl-[80px]"
       >
         <img src="https://svgshare.com/i/14qu.svg" alt="code2" />
